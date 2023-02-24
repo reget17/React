@@ -1,0 +1,23 @@
+.todoForm {
+  display: flex;
+  justify-content: center;
+}
+
+.todoForm input {
+  font-size: 20px;
+  margin: 15px 10px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(245, 37, 14);
+}
+
+.buttonForm {
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.buttonForm:hover {
+  background-color: bisque;
+  border-radius: 5px;
+}
