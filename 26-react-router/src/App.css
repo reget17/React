@@ -6,6 +6,16 @@ h1 {
   font-size: 90px;
   margin-top: 20px;
 }
+/* Used by default with NavLink */
+/* .active {
+  color: lightcoral;
+  text-decoration: none;
+} */
+
+.activeLink {
+  color: lightcoral;
+  text-decoration: none;
+}
 
 a {
   font-size: 35px;
