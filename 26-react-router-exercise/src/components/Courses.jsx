@@ -5,16 +5,12 @@ const Courses = () => {
   return (
     <>
       <h1>All Courses</h1>
-      {courses.map((course) => {
-        return (
-          <>
-            <Link key={course.id} to={course.slug}>
-              {course.title}
-            </Link>
-            <br />
-          </>
-        )
-      })}
+      {courses.map((course) => (
+        <div key={course.id}>
+          <Link to={course.slug}>{course.title}</Link>
+          <br />
+        </div>
+      ))}
     </>
   )
 }
